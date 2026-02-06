@@ -87,9 +87,6 @@ pyPDF/
 │       └── pdf_reader.py
 ├── README.md
 ├── pyproject.toml
-├── sample_pdf_with_images.pdf
-├── sample_table.pdf
-└── ALI BARGH (1).pdf
 ```
 
 ---
