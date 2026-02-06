@@ -1,4 +1,3 @@
-````markdown
 # PDF Data Extractor
 
 Python package to extract **text, words, tables, and images** from PDF files.  
@@ -110,4 +109,3 @@ pyPDF/
 * ❌ OCR is **not supported**. Image-based PDFs require an OCR tool like Tesseract.
 * ❌ Table extraction depends on PDF structure; poorly formatted PDFs may produce inaccurate results.
 * For advanced users: You can integrate this package into pipelines for automation or data analysis.
-
