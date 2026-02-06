@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pyt
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Build / Dist / Egg
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+*.whl
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDF / test data (اختیاری، اگر نمی‌خوای داخل git باشد)
+*.pdf
+images/

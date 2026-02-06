@@ -1,0 +1,20 @@
+[project]
+name = "pdf-data-extractor"
+version = "0.1.0"
+description = "Utility to extract text, tables, words, and images from PDF files"
+authors = [{ name = "Ali", email = "seyyed0ali0bargh@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "PyPDF2>=3.0.0",
+    "pdfplumber>=0.11.0",
+    "pymupdf>=1.23.0",
+    "Pillow>=10.0.0"
+]
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
